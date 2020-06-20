@@ -30,7 +30,12 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 
 
 " Switch to your current theme
-" let g:airline_theme = 'onedark'
+" let g:airline_theme = 'molokai'
+" let g:airline_theme = 'term'
+" let g:airline_theme = 'hybrid'
+let g:airline_theme = 'hybridline'
+" let g:airline_theme = 'jellybeans'
+" let g:airline_theme = 'ayu_mirage'
 
 " Always show tabs
 set showtabline=2
@@ -38,9 +43,8 @@ set showtabline=2
 " We don't need to see things like -- INSERT -- anymore
 set noshowmode
 
+
 " Sections
-" let g:airline_section_c = ''
-let g:airline_section_a = "Mach 2"
 " let g:airline_section_a = ""
-let g:airline_section_y = ''
+" let g:airline_section_y = ''
 let g:webdevicons_enable_airline_tabline = 1
