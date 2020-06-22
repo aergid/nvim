@@ -25,11 +25,6 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
 
 
 " Single mappings
-let g:which_key_map['/'] = [ ':Commentary'  , 'comment' ]
-let g:which_key_map['.'] = [ ':e $MYVIMRC'                , 'open init' ]
-let g:which_key_map[';'] = [ ':Commands'                  , 'commands' ]
-let g:which_key_map['='] = [ '<C-W>='                     , 'balance windows' ]
-let g:which_key_map[','] = [ 'Startify'                   , 'start screen' ]
 let g:which_key_map['c'] = [ ':Codi!!'                    , 'virtual repl']
 let g:which_key_map['d'] = [ ':bd'                        , 'delete buffer']
 let g:which_key_map['e'] = [ ':CocCommand explorer'       , 'explorer' ]
@@ -41,6 +36,11 @@ let g:which_key_map['t'] = [ ':Rg'                        , 'search text' ]
 let g:which_key_map['v'] = [ '<C-W>v'                     , 'split right']
 let g:which_key_map['w'] = [ 'w'                          , 'write' ]
 let g:which_key_map['z'] = [ 'Goyo'                       , 'zen' ]
+let g:which_key_map['/'] = [ ':Commentary'                , 'comment' ]
+let g:which_key_map['='] = [ '<C-W>='                     , 'balance windows' ]
+let g:which_key_map['.'] = [ ':e $MYVIMRC'                , 'open init' ]
+let g:which_key_map[','] = [ 'Startify'                   , 'start screen' ]
+let g:which_key_map[';'] = [ ':Commands'                  , 'commands' ]
 
 " Group mappings
 
@@ -77,22 +77,22 @@ let g:which_key_map.f = {
       \ ';' : [':Commands'              , 'commands'],
       \ 'a' : [':Ag'                    , 'text Ag'],
       \ 'b' : [':Buffers'               , 'open buffers'],
-      \ 'C' : [':Commits'               , 'commits'],
       \ 'c' : [':BCommits'              , 'buffer commits'],
+      \ 'C' : [':Commits'               , 'commits'],
       \ 'f' : [':Files'                 , 'files'],
       \ 'g' : [':GFiles'                , 'git files'],
       \ 'G' : [':GFiles?'               , 'modified git files'],
-      \ 'h' : [':History'               , 'file history'],
       \ 'H' : [':History:'              , 'command history'],
+      \ 'h' : [':History'               , 'file history'],
       \ 'l' : [':Lines'                 , 'lines'] ,
-      \ 'm' : [':Marks'                 , 'marks'] ,
       \ 'M' : [':Maps'                  , 'normal maps'] ,
+      \ 'm' : [':Marks'                 , 'marks'] ,
       \ 'p' : [':Helptags'              , 'help tags'] ,
       \ 'P' : [':Tags'                  , 'project tags'],
       \ 's' : [':CocList snippets'      , 'snippets'],
       \ 'S' : [':Colors'                , 'color schemes'],
-      \ 't' : [':Rg'                    , 'text Rg'],
       \ 'T' : [':BTags'                 , 'buffer tags'],
+      \ 't' : [':Rg'                    , 'text Rg'],
       \ 'w' : [':Windows'               , 'search windows'],
       \ 'y' : [':Filetypes'             , 'file types'],
       \ 'z' : [':FZF'                   , 'FZF'],
