@@ -37,7 +37,8 @@ else
   source $HOME/.config/nvim/plug-config/goyo.vim
   source $HOME/.config/nvim/plug-config/vim-rooter.vim
   source $HOME/.config/nvim/plug-config/start-screen.vim
-  source $HOME/.config/nvim/plug-config/gitgutter.vim
+  " source $HOME/.config/nvim/plug-config/gitgutter.vim
+  source $HOME/.config/nvim/plug-config/coc-git.vim
   source $HOME/.config/nvim/plug-config/closetags.vim
   source $HOME/.config/nvim/plug-config/floaterm.vim
   source $HOME/.config/nvim/plug-config/vista.vim
