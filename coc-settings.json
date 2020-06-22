@@ -37,6 +37,9 @@
   ],
   "coc.preferences.hoverTarget": "float",
 
+  // Java
+  "java.home": "/usr/lib/jvm/default-runtime",
+
   // python config
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,

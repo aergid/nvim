@@ -33,14 +33,13 @@ let g:which_key_map[','] = [ 'Startify'                   , 'start screen' ]
 let g:which_key_map['c'] = [ ':Codi!!'                    , 'virtual repl']
 let g:which_key_map['d'] = [ ':bd'                        , 'delete buffer']
 let g:which_key_map['e'] = [ ':CocCommand explorer'       , 'explorer' ]
-let g:which_key_map['f'] = [ ':Files'                     , 'search files' ]
 let g:which_key_map['h'] = [ '<C-W>s'                     , 'split below']
 let g:which_key_map['q'] = [ 'q'                          , 'quit' ]
 let g:which_key_map['r'] = [ ':RnvimrToggle'              , 'ranger' ]
-let g:which_key_map['S'] = [ ':SSave'                     , 'save session' ]
-let g:which_key_map['T'] = [ ':Rg'                        , 'search text' ]
+let g:which_key_map['s'] = [ ':SSave'                     , 'save session' ]
+let g:which_key_map['t'] = [ ':Rg'                        , 'search text' ]
 let g:which_key_map['v'] = [ '<C-W>v'                     , 'split right']
-let g:which_key_map['W'] = [ 'w'                          , 'write' ]
+let g:which_key_map['w'] = [ 'w'                          , 'write' ]
 let g:which_key_map['z'] = [ 'Goyo'                       , 'zen' ]
 
 " Group mappings
@@ -72,15 +71,14 @@ let g:which_key_map.b = {
       \ }
 
 " s is for search
-let g:which_key_map.s = {
+let g:which_key_map.f = {
       \ 'name' : '+search' ,
       \ '/' : [':History/'              , 'history'],
       \ ';' : [':Commands'              , 'commands'],
       \ 'a' : [':Ag'                    , 'text Ag'],
-      \ 'b' : [':BLines'                , 'current buffer'],
-      \ 'B' : [':Buffers'               , 'open buffers'],
-      \ 'c' : [':Commits'               , 'commits'],
-      \ 'C' : [':BCommits'              , 'buffer commits'],
+      \ 'b' : [':Buffers'               , 'open buffers'],
+      \ 'C' : [':Commits'               , 'commits'],
+      \ 'c' : [':BCommits'              , 'buffer commits'],
       \ 'f' : [':Files'                 , 'files'],
       \ 'g' : [':GFiles'                , 'git files'],
       \ 'G' : [':GFiles?'               , 'modified git files'],
@@ -104,8 +102,8 @@ let g:which_key_map.s = {
 " g is for git
 let g:which_key_map.g = {
       \ 'name' : '+git' ,
-      \ 'a' : [':Git add .'                        , 'add all'],
-      \ 'A' : [':Git add %'                        , 'add current'],
+      \ 'A' : [':Git add .'                        , 'add all'],
+      \ 'a' : [':Git add %'                        , 'add current'],
       \ 'b' : [':Git blame'                        , 'blame'],
       \ 'B' : [':GBrowse'                          , 'browse'],
       \ 'c' : [':Git commit'                       , 'commit'],

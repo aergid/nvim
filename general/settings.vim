@@ -22,7 +22,7 @@ if !exists('g:vscode')
   set smartindent                         " Makes indenting smart
   set autoindent                          " Good auto indent
   set laststatus=2                        " Always display the status line
-  set number                              " Line numbers
+  set relativenumber                      " Line numbers
   set cursorline                          " Enable highlighting of the current line
   set background=dark                     " tell vim what the background color looks like
   set showtabline=2                       " Always show tabs 
@@ -35,8 +35,9 @@ if !exists('g:vscode')
   set timeoutlen=100                      " By default timeoutlen is 1000 ms
   set clipboard=unnamedplus               " Copy paste between vim and everything else
   set incsearch
+  set ignorecase
   set smartcase
-  set guifont=Hack\ Nerd\ Font
+  set guifont=Iosevka\ Nerd\ Font
   let $NVIM_TUI_ENABLE_TRUE_COLOR=1
   " set mmp=1300
   " set autochdir                           " Your working directory will always be the same as your working directory
