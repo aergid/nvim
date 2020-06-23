@@ -33,10 +33,10 @@ vnoremap : ;
 " inoremap <c-u> <ESC>viwUi
 " nnoremap <c-u> viwU<Esc>
 
-" TAB in general mode will move to text tab
-nnoremap <silent> <TAB> :tabnext<CR>
-" SHIFT-TAB will go tab back
-nnoremap <silent> <S-TAB> :tabprev<CR>
+" isolate current buffer in new tab
+nnoremap <silent> <TAB> :tab split<CR>
+" kill tab
+nnoremap <silent> <S-TAB> :tabclose<CR>
 
 nnoremap  ]b :bn<CR>
 nnoremap  [b :bp<CR>

@@ -56,8 +56,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Status Line
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-" Plug 'bagrat/vim-buffet'
-Plug 'hardcoreplayers/vim-buffet'
 " Ranger
 " Plug 'francoiscabrol/ranger.vim'
 " Plug 'rbgrouleff/bclose.vim'
