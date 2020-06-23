@@ -136,7 +136,3 @@ Example:
 - git messenger
 - neovide
 - setup global coc extensions to auto install
-
-## VSCode integration
-
-We will be integrating with VSCode using [this](https://github.com/asvetliakov/vscode-neovim)
