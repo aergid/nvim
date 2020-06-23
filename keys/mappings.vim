@@ -33,10 +33,13 @@ vnoremap : ;
 " inoremap <c-u> <ESC>viwUi
 " nnoremap <c-u> viwU<Esc>
 
-" TAB in general mode will move to text buffer
-nnoremap <silent> <TAB> :bnext<CR>
-" SHIFT-TAB will go back
-nnoremap <silent> <S-TAB> :bprevious<CR>
+" TAB in general mode will move to text tab
+nnoremap <silent> <TAB> :tabnext<CR>
+" SHIFT-TAB will go tab back
+nnoremap <silent> <S-TAB> :tabprev<CR>
+
+nnoremap  ]b :bn<CR>
+nnoremap  [b :bp<CR>
 
 " Move selected line / block of text in visual mode
 " shift + k to move up

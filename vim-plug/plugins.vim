@@ -8,6 +8,8 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+" Cool Icons
+Plug 'ryanoasis/vim-devicons'
 " Change dates fast
 Plug 'tpope/vim-speeddating'
 " Convert binary, hex, etc..
@@ -25,7 +27,6 @@ Plug 'tpope/vim-commentary'
 Plug 'airblade/vim-rooter'
 " auto set indent settings
 Plug 'tpope/vim-sleuth'
-
 " Text Navigation
 Plug 'justinmk/vim-sneak'
 Plug 'unblevable/quick-scope'
@@ -38,8 +39,6 @@ Plug 'norcalli/nvim-colorizer.lua'
 Plug 'junegunn/rainbow_parentheses.vim'
 " Better Syntax Support
 Plug 'sheerun/vim-polyglot'
-" Cool Icons
-Plug 'ryanoasis/vim-devicons'
 " Auto pairs for '(' '[' '{'
 Plug 'jiangmiao/auto-pairs'
 " Closetags
@@ -57,6 +56,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Status Line
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+" Plug 'bagrat/vim-buffet'
+Plug 'hardcoreplayers/vim-buffet'
 " Ranger
 " Plug 'francoiscabrol/ranger.vim'
 " Plug 'rbgrouleff/bclose.vim'
