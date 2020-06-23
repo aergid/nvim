@@ -27,6 +27,15 @@ else
   inoremap jk <Esc>
   inoremap kj <Esc>
 
+  " Don't use shift for commands
+  " handle t & f next command as ':'
+  nnoremap ; :
+  nnoremap : ;
+  vnoremap ; :
+  vnoremap : ;
+  " map ; :
+  " noremap ;; ;
+
   " Easy CAPS
   " inoremap <c-u> <ESC>viwUi
   " nnoremap <c-u> viwU<Esc>
