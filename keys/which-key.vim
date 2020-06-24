@@ -30,6 +30,7 @@ let g:which_key_map['d'] = [ ':Bdelete'                   , 'delete buffer']
 let g:which_key_map['e'] = [ ':CocCommand explorer'       , 'explorer' ]
 let g:which_key_map['h'] = [ '<C-W>s'                     , 'split below']
 let g:which_key_map['q'] = [ 'q'                          , 'quit' ]
+let g:which_key_map['o'] = [ ':on'                        , 'close other windows' ]
 let g:which_key_map['r'] = [ ':RnvimrToggle'              , 'ranger' ]
 let g:which_key_map['s'] = [ ':SSave'                     , 'save session' ]
 let g:which_key_map['t'] = [ ':Rg'                        , 'search text' ]
@@ -61,6 +62,7 @@ let g:which_key_map.a = {
 " b is for buffer
 let g:which_key_map.b = {
       \ 'name' : '+buffer' ,
+      \ 'o' : [':call  CloseAllBuffersButCurrent()', 'close other buffers' ] ,
       \ 'd' : ['bd'        , 'delete-buffer']   ,
       \ 'f' : ['bfirst'    , 'first-buffer']    ,
       \ 'l' : ['blast'     , 'last-buffer']     ,

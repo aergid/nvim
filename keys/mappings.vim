@@ -34,7 +34,7 @@ vnoremap : ;
 " nnoremap <c-u> viwU<Esc>
 
 " isolate current buffer in new tab
-nnoremap <silent> <TAB> :tab split<CR>
+nnoremap <silent> <TAB> :call IsolateWindow()<CR>
 " kill tab
 nnoremap <silent> <S-TAB> :tabclose<CR>
 
