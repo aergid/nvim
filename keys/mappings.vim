@@ -38,8 +38,11 @@ nnoremap <silent> <TAB> :tab split<CR>
 " kill tab
 nnoremap <silent> <S-TAB> :tabclose<CR>
 
+" Motions
 nnoremap  ]b :bn<CR>
 nnoremap  [b :bp<CR>
+nnoremap  ]q :cn<CR>
+nnoremap  [q :cp<CR>
 
 " Move selected line / block of text in visual mode
 " shift + k to move up
